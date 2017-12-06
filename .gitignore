@@ -1,0 +1,29 @@
+.DS_Store
+
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!.gitignore
+!wp-content/
+
+# Ignore everything in the "wp-content" directory, except the "plugins" and "themes" directories.
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+!wp-content/uploads/
+
+# Ignore everything in the “uploads” directory, except the 2017 directory.
+wp-content/uploads/*
+!wp-content/uploads/2017/
+
+# Ignore everything in the "plugins" directory, except the plugins you specify
+wp-content/plugins/*
+!wp-content/plugins/WP_Polisher/
+
+# Ignore everything in the "themes" directory, except the themes you specify
+wp-content/themes/*
+!wp-content/themes/ptfa/
+
+wp-content/themes/ptfa/.DS_Store
+wp-content/themes/ptfa/css/.DS_Store
+wp-content/themes/ptfa/js/.DS_Store
+wp-content/themes/ptfa/images/.DS_Store

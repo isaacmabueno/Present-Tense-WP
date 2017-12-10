@@ -26,7 +26,7 @@ a, i {
     transition: all ease-in-out .4s;
 }
  h1 {
-    font-size: 72px;
+    font-size: 68px;
  }
 
  h2 {
@@ -34,9 +34,27 @@ a, i {
  }
 
 h3 {
-    font-size: 28px;
+    font-size: 36px;
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 22px;
+}
+p {
+    font-size: 18px;
+}
+
+.real-english-ales span {
+    color: rgb(153, 101, 21);
+}
+
+.the-beer span {
+    display: block;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 980px) {
+    .home-hero .et_pb_fullwidth_image {
+        width: 70%;
+    }
 }

@@ -20,6 +20,11 @@ Version:      1.0.0
     width: auto !important;
 }
 
+#top-menu li a:hover {
+    color: rgb(153, 101, 21) !important;
+    opacity: 1 !important;
+}
+
 a, i {
     -webkit-transition: all ease-in-out .4s;
     -moz-transition: all ease-in-out .4s;
@@ -51,6 +56,15 @@ p {
 .the-beer span {
     display: block;
     margin-top: 15px;
+}
+
+.alc-content p {
+    color: rgb(153, 101, 21);
+    font-family: "Archivo Narrow";
+}
+
+.alc-content span {
+    display: inline-block;
 }
 
 @media screen and (max-width: 980px) {

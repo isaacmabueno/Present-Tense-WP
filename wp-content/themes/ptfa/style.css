@@ -7,6 +7,11 @@ Template:     Divi
 Version:      1.0.0
 */
 
+@font-face {
+    font-family: "Old Growth";
+    src: url('OldGrowth-Regular.otf') format('opentype');
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

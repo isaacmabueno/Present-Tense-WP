@@ -21,6 +21,11 @@ Version:      1.0.0
     border: none;
 }
 
+#top-menu li a {
+    font-family: "Old Growth";
+    /* font-size: 10px !important; */
+}
+
 .et_pb_row:after, .et_pb_row_inner:after, .et_pb_slides:after {
     width: auto !important;
 }
@@ -36,11 +41,14 @@ a, i {
     transition: all ease-in-out .4s;
 }
  h1 {
-    font-size: 68px;
+    font-family: "Old Growth" !important;
+    text-transform: lowercase;
  }
 
  h2 {
-    font-size: 46px;
+    font-size: 30px;
+    font-family: "Old Growth" !important;
+    text-transform: lowercase;
  }
 
 h3 {
@@ -52,6 +60,25 @@ h4 {
 }
 p {
     font-size: 18px;
+}
+
+.the-beer h3 {
+    font-family: "Old Growth";
+    font-size: 20px;
+}
+
+#footer-info {
+    font-size: 6px;
+}
+
+#footer-info, #footer-info a {
+    font-family: "Old Growth";
+    font-size: 6px !important;
+}
+
+.main_font h1 {
+
+    text-transform: lowercase;
 }
 
 .real-english-ales span {
@@ -66,10 +93,19 @@ p {
 .alc-content p {
     color: rgb(153, 101, 21);
     font-family: "Archivo Narrow";
+    margin-top: 30px;
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
 }
 
 .alc-content span {
     display: inline-block;
+}
+
+img.ptfa-text {
+    width: 50%;
 }
 
 @media screen and (max-width: 980px) {

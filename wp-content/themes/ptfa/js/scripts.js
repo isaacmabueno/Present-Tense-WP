@@ -1,7 +1,12 @@
-$(document).ready(function() {
+jQuery(function ($) {
+    $(document).ready(function() {
+        $("#box").on('mouseenter', function() {
+            $(this).addClass('highlight');
+            $(this).find('.price').show();
+             });
 
-});
-
-$( window ).resize(function() {
-    adjust_padding();
+            $("#box").on('mouseleave', function() {
+                $(this).removeClass('highlight');
+            });
+    });
 });

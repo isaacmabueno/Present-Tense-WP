@@ -23,7 +23,6 @@ Version:      1.0.0
 
 #top-menu li a {
     font-family: "Old Growth";
-    /* font-size: 10px !important; */
 }
 
 .et_pb_row:after, .et_pb_row_inner:after, .et_pb_slides:after {
@@ -106,6 +105,30 @@ p {
 
 img.ptfa-text {
     width: 50%;
+}
+
+/* jquery section */
+.alc-content {
+    background-color: #fff;
+    border-color: 2px solid rgb(153, 101, 21);
+}
+
+.alc-content .hover {
+    display: block;
+}
+
+.highlight {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.price {
+    display: none;
+}
+
+.highlight .price {
+    display: block !important;
 }
 
 @media screen and (max-width: 980px) {

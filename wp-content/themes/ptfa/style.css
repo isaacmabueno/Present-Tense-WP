@@ -66,6 +66,13 @@ input#searchsubmit {
     font-family: "Old Growth";
     text-transform: lowercase;
     padding: 4px;
+    background: rgba(152,120,53,0.95);
+    color: #fff;
+    border-radius: 2px;
+}
+
+#searchform input {
+    border-radius: 2px;
 }
 
 .search-form {

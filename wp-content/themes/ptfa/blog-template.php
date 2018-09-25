@@ -12,7 +12,8 @@ get_header(); ?>
         $args = array(
             'post_type'      => 'post',
             'posts_per_page' => 10,
-            'order'          => 'DESC',
+            'order'          => 'DESC
+            ',
             'orderby'        => 'title'
             );
         $the_query = new WP_Query ($args);
@@ -25,7 +26,7 @@ get_header(); ?>
                 echo '<li>';
                 echo '<div class="ptfa_blog">';
                 echo get_the_post_thumbnail();
-                echo '<h2>' . get_the_title() . '</h2>';
+                echo '<h2><a href=" ' .esc_url( get_permalink() ) . '"' . get_the_title() . '</a></h2>';
                 echo '</div>';
                 echo '</li>';
             }
